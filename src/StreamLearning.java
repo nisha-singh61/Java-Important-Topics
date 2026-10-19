@@ -21,14 +21,5 @@ public class StreamLearning {
                 .forEach(System.out::println);
         // Streams are a new feature in Java 8 that allow for functional-style operations on collections of data.
         // Streams can be used to perform operations such as filtering, mapping, and reducing on collections of data in a more concise and expressive way than traditional for-loops.
-
-//        // Create a stream of integers
-//        java.util.stream.Stream<Integer> numbers = java.util.stream.Stream.of(1, 2, 3, 4, 5);
-//
-//        // Use the filter method to create a new stream that only contains even numbers
-//        java.util.stream.Stream<Integer> evenNumbers = numbers.filter(n -> n % 2 == 0);
-//
-//        // Use the forEach method to print out the even numbers
-//        evenNumbers.forEach(System.out::println);
     }
 }
